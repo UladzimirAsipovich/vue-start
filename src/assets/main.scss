@@ -1,0 +1,13 @@
+@import './base.scss';
+
+.basic_page {
+  padding: 3rem 1rem;
+  min-height: 1000px;
+  // height: 100vh;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
